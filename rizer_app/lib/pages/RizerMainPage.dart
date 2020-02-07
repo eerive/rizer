@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import '../constants.dart';
 
+dynamic response;
+
 /// Rizer main page
+///
+///
 ///
 ///
 class RizerMainPage extends StatefulWidget {
@@ -18,8 +22,12 @@ class _RizerMainPageState extends State<RizerMainPage> {
       appBar: AppBar(
         title: Text(RizerConstants.appTitle),
       ),
-      body: Center(
-        child: Text("test"),
+      body: new Container(
+        child: new Column(
+          children: <Widget>[],
+        ),
+        color: Colors.white,
+
       ),
       bottomNavigationBar: BottomAppBar(
         color: Colors.white,
